@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hi, I'm Flaco!</title>
+    <style>
+        /* Importation de la police ITC Avant Garde Gothic */
+        @font-face {
+            font-family: 'AvantGardeGothic';
+            src: url('fonts/ITCAvantGardeGothicStd-Bold.otf') format('opentype');
+            font-weight: bold;
+        }
+        @font-face {
+            font-family: 'AvantGardeGothic';
+            src: url('fonts/ITCAvantGardeGothicStd-Book.otf') format('opentype');
+            font-weight: normal;
+        }
+
+        /* Global Styles */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'AvantGardeGothic', Arial, sans-serif;
+            background-color: #131313;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h2 {
+            color: #ffb80e;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+        .important {
+            color: #ffb80e;
+            font-weight: bold;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            padding: 50px 0;
+        }
+        .portfolio h2 {
+            text-align: center;
+            color: #ffb80e;
+            margin-bottom: 40px;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .portfolio-item {
+            width: 30%;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .portfolio-item h3 {
+            color: #ffb80e;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+            margin-top: auto; /* Pousse le footer en bas de la page */
+        }
+        footer a {
+            color: #ffb80e;
+            text-decoration: none;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Conteneur pour centrer l'iframe */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-top: 1px solid #333;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section (Avertissement amélioré) -->
+    <section class="hero">
+        <div class="container">
+            <h2>AVERTISSEMENT</h2>
+            <p>
+                Depuis un certain temps, <strong>Flaco</strong> a représenté une image qui, en réalité, n’est pas celle de la personne derrière l’écran. 
+                Derrière ce personnage <span class="important">un peu foufou et débilement drôle</span>, il y a quelqu’un qui commence à ressentir la fatigue d’un masque porté trop longtemps.
+            </p>
+            <p>
+                Cette façade de légèreté, bien que divertissante et parfois exubérante, ne reflète plus vraiment ce que je ressens intérieurement. 
+                La vérité, c’est que <strong>je souhaite aujourd’hui m’exprimer de manière plus authentique</strong>, en laissant tomber ce masque pour <span class="important">devenir sérieux</span>, tout simplement.
+            </p>
+            <p>
+                Dans les jours à venir, vous verrez des <span class="important">changements sur mes réseaux sociaux</span> ainsi que dans tout ce qui concerne mon <span class="important">identité visuelle</span>. 
+                Cela inclura une mise à jour de l'image de profil, de nouvelles descriptions, et une réorganisation complète de mes contenus. 
+                Ce processus est essentiel pour aligner l’image de <strong>Flaco</strong> avec qui je suis réellement.
+            </p>
+            <p>
+                De plus, un <span class="important">tri sera effectué dans mes listes d’amis</span> sur des plateformes telles que Discord et autres, ainsi que dans les serveurs où je suis présent. 
+                Ce tri fait partie d'une volonté de réorganiser mon environnement social en ligne pour mieux refléter mes priorités actuelles.
+            </p>
+            <p>
+                Il est temps pour moi de vous montrer qui je suis réellement, sans artifice, sans faux-semblants. Cette transition vers une nouvelle version de <strong>Flaco</strong> 
+                sera un changement vers plus de sincérité et de profondeur, mais rassurez-vous, l’humour et l’esprit léger seront toujours là, simplement avec un peu plus de vérité.
+            </p>
+            <p>
+                Merci à tous ceux qui m’ont soutenu jusqu’ici. J'espère que vous comprendrez et continuerez à me suivre dans cette nouvelle aventure. 
+                Votre soutien a toujours été une grande source de motivation, et c’est pour cela que je veux être honnête avec vous.
+            </p>
+            <p>
+                Avec tout mon respect, <br>
+                Flaco.
+            </p>
+        </div>
+    </section>
+
+    <!-- Conteneur pour le Discord Widget -->
+    <div class="iframe-container">
+        <iframe src="https://discord.com/widget?id=1212339307109425152&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
+
+    <footer>
+        <p>2024 Flaco - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
